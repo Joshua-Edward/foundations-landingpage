@@ -55,7 +55,6 @@ a {
 
 img {
   max-height: 300px;
-  flex: 1;
 }
 
 .header-body {
@@ -64,7 +63,6 @@ img {
   height: 300px;
   gap: 48px;
   padding: 72px 16px 72px 16px;
-  justify-content: space-between;
 }
 
 .header-signup {
@@ -72,8 +70,6 @@ img {
   flex-direction: column;
   gap: 16px;
   align-items: flex-start;
-  width: 50%;
-  flex: 1;
 }
 
 button {
