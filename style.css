@@ -53,7 +53,7 @@ a {
   color: #F9FAF8;
 }
 
-img {
+img.hero-image {
   max-height: 300px;
 }
 
