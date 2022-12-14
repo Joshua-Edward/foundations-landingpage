@@ -2,14 +2,18 @@ body {
   font-family: Roboto;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  background: #1F2937;
+  align-items: center;
 }
 
 .header-container {
   display: flex;
   flex-direction: column;
-  background: #1F2937;
   color: #F9FAF8;
-  padding: 0 200px 0 200px;
+  width: 900px;
+  align-items: space-between;
 }
 
 .header {
@@ -33,6 +37,16 @@ body {
   padding: 0;
 }
 
+.hero-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 a {
   text-decoration: none;
   font-size: 18px;
@@ -40,29 +54,32 @@ a {
 }
 
 img {
-  width: 50%;
-  height: auto;
+  max-height: 300px;
+  flex: 1;
 }
 
 .header-body {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-}
-
-.hero-text {
-  font-size: 48px;
-  font-weight: bolder;
+  height: 300px;
+  gap: 48px;
+  padding: 72px 16px 72px 16px;
+  justify-content: space-between;
 }
 
 .header-signup {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  align-items: flex-start;
+  width: 50%;
+  flex: 1;
 }
 
-.signup {
-  flex: 0;
-  margin: 0;
-  padding: 16px;
+button {
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  padding: 8px 32px;
+  color: white;
 }
