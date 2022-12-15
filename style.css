@@ -183,3 +183,11 @@ button.action {
 .action-text {
   color: #E5E7EB;
 }
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E5E7EB;
+  padding: 24px;
+}
